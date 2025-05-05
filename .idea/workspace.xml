@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b2a92c8-18fe-43c6-88f0-0aa5d65d9b0b" name="Changes" comment="">
+    <list default="true" id="9b2a92c8-18fe-43c6-88f0-0aa5d65d9b0b" name="Changes" comment="Prima parte">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -43,6 +43,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AdinaBuza"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AdinaBuza/Paradigme-9-10.git",
+    "accountId": "0c1da3b3-6897-4d0b-989b-4c56d377d5b1"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
 }]]></component>
@@ -83,11 +95,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1746421706676</updated>
-      <workItem from="1746421708047" duration="8864000" />
+      <workItem from="1746421708047" duration="9106000" />
     </task>
+    <task id="LOCAL-00001" summary="Prima parte">
+      <option name="closed" value="true" />
+      <created>1746431925961</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746431925961</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Prima parte" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prima parte" />
   </component>
 </project>
