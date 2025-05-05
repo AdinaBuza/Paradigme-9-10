@@ -1,0 +1,26 @@
+package org.example;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class Main {
+    public static void main(String[] args) {
+        List<String> persoane = new ArrayList<>();
+        persoane.add("Ariana");
+        persoane.add("Ion");
+        persoane.add("Mariana");
+
+        // Filtrare nume cu lungime > 5 și transformare în majuscule
+        List<String> numeLungimeMare = persoane.stream()
+                .filter(nume -> nume.length() > 5)  // Folosim direct length() pe String
+                .map(String::toUpperCase)          // Convertim la majuscule
+                .collect(Collectors.toList());
+        System.out.println("Nume cu lungime > 5: " + numeLungimeMare);
+
+        // Concatenare nume
+        String numeConcatenate = persoane.stream()
+                .reduce("", (acc, nume) -> acc.isEmpty() ? nume : acc + ", " + nume);
+        System.out.println("Nume concatenate: " + numeConcatenate);
+    }
+}
